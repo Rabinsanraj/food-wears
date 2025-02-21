@@ -1233,6 +1233,7 @@ padding-left: 30px;
         display: block;
         padding-left: 120px;
         text-align: center;
+        width:100%;
     }
     .footer .footer-content{
         margin-top:5px;
