@@ -1,0 +1,1007 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.first-nav{
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.first-nav h1{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    align-items: center;
+    color: white;
+}
+.first-nav h1 span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.first-nav a h1:hover{
+    color: rgb(0, 0, 0);
+    text-shadow:
+    0px 0px 3px white,
+    0px 0px 3px white,
+    0px 0px 3px white,
+    0px 0px 3px white;
+}
+.first-nav a button{
+   position: absolute;
+   right:10px;
+   top: 10px;
+   font-size: 16px;
+   padding: 8px 20px 8px 20px;
+   background-color: rgb(119, 189, 39);
+   border: none;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.first-nav a button:hover{
+    background-color: rgb(62, 116, 2);
+    text-shadow:
+    0px 0px 1px white,
+    0px 0px 1px white,
+    0px 0px 1px white,
+    0px 0px 1px white;
+} 
+
+/*------------------------------------------------------------*/
+.nav-2{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+}
+.nav-2 h6{
+    position: absolute;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(73, 73, 73);
+    top: 15px;
+}
+.nav-2 .cont-1 .paragraph{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 200px; 
+}
+.nav-2 .cont-1 .paragraph p{
+    gap: 30px;
+    color: rgb(0, 0, 0);  
+}
+.nav-2 .cont-1 .paragraph p a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav-2 .cont-1 .paragraph p a i {
+    color: red;
+    margin-right: 15px;   
+}
+.nav-2 .cont-1 .paragraph p a i span{
+    color: black;
+    margin-left: 10px;
+}
+
+.nav-2 .cont-1 .paragraph p :hover{
+    color: rgb(255, 2, 2);
+}
+/*--------------------------------------------------*/
+.nav-2 .cont-1 .account-drop{
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+.nav-2 .cont-1 .account-drop a{
+    text-decoration: none;
+    color: black;
+}
+.nav-2 .cont-1 .account-drop a:hover{
+    color: red;
+}
+.nav-2 .cont-1 .account-drop a i{
+   margin-right: 10px;
+   color: red;
+}
+
+.account-drop{
+    position: relative;
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+    font-size: 18px;
+    background-color:rgb(227, 227, 255);;
+}
+.dropdown-content a{
+    padding: 10px;
+}
+.account-drop a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown-content a:hover {
+    background-color:rgb(220, 220, 255);;
+}
+
+/*------------------------------------------------------*/
+
+.search-box{
+    display: block;
+    position: relative;
+    height: 100px;
+    margin-top: 40px;
+}
+.search-box a h1{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 90px;
+    font-size: 50px;
+    color: black;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-box input{
+    position: absolute;
+    justify-content: center;
+    font-size: 15px;
+    top: 30px;
+    left: 450px;
+    height: 45px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    border: 2px solid rgb(170, 170, 170);
+    padding-left: 30px;
+}
+
+.search-box a .lence{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    top: 30px;
+    left: 820px;
+    background-color: red;
+    padding: 10px 25px 10px 25px;
+    border-radius: 0px 10px 10px 0px;
+    color: rgb(255, 255, 255);
+}
+.search-box a .heart{
+    position: absolute;
+    cursor: pointer;
+    right: 130px;
+    top: 35px;
+    font-size: 30px ;
+}
+.search-box a .heart:hover,
+.search-box a .bag:hover{
+    color: red;
+}
+.search-box a .bag{
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    font-size: 30px ;
+}
+.search-box a i {
+    color:black;
+    font-size: 30px;
+}
+.search-box a i:hover{
+color: rgb(0, 0, 0);
+
+}
+/*-------------------------------------------------------------*/
+.add-cart{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    border:1px solid white ;
+    background-color: rgba(252, 245, 232, 0.918);
+    z-index: 10;
+    right: 5px;
+    top: 80px;
+    display: none;
+}
+.add-cart .shop-button{
+    display: flex;
+    gap: 40px;
+    background-color:rgb(184, 182, 182);
+    border: none;
+    font-size:25px ;
+    padding-top: 15px;
+    padding-left: 60px;
+    height: 60px;
+    width: 100%;
+    transition: 0.10s ease-in-out;
+}
+.add-cart .shop-button i{
+    position: absolute;
+    color:red;
+    font-size:25px ;
+    padding-top: 5px;
+    right: 30px;
+}
+.add-cart .shop-button:hover{
+    background-color: black;
+    color: red;
+}
+
+.add-cart .imgs-box{
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.add-cart .imgs-box .imgs{
+    padding-bottom: 30px;
+    display: flex;
+}
+.add-cart .imgs-box .imgs .text h2{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    color: rgb(46, 46, 46);
+    font-weight: 1;
+}
+.add-cart .imgs-box .imgs .text h2 span{
+    position: absolute;
+    right: 20px;
+    padding-top: 10px;
+    font-size: 15px; 
+    cursor: pointer;
+    color: red;
+}
+.add-cart .imgs-box .imgs .text h4{
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: rgb(71, 71, 71);
+    font-weight: 1;
+}
+
+.add-cart .imgs-box .imgs img{
+    height: 100px;
+    width: 80px;
+}
+.add-cart .sub-tot{
+    display: flex;
+    gap: 230px;
+padding-left: 30px;
+    color: rgb(59, 1, 1);
+}
+.add-cart .check-button a button{
+    display:block;
+    margin-top: 20px;
+    border: none;
+    position: relative;
+    left: 20px;
+}
+.add-cart .check-button a .view{
+    padding: 20px 130px 20px 130px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+.add-cart .check-button a .check{
+    padding: 20px 130px 20px 130px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: yellow;
+}
+/* ------------------- */
+.add-cart .imgs-box .imgs:hover .text h2{
+    color: red;
+}
+.add-cart .imgs-box .imgs:hover .text h2 span{
+    text-shadow: 0px 0px 10px rgb(255, 0, 0),
+    0px 0px 10px rgb(59, 53, 53),
+    0px 0px 10px rgb(129, 84, 84),
+    0px 0px 10px rgb(228, 17, 17);
+}
+
+/*-------------------------------------------------------------*/
+
+.nav-3{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0px;
+    margin-top: 50px;
+}
+.nav-3 .nav-content{
+    background-color: red;
+    height: 50px;
+    width: 95%;
+    padding-top: 15px;
+    background-color: red;
+    text-decoration: none;
+    border-radius:10px 10px 0px 0px;
+}
+.nav-3 .nav-name{
+    margin-left: 60px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.nav-3 .nav-name i{
+   margin-left: 8px;
+}
+/*----------------------------------------------------*/
+.drop-pages {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content-pages {
+    display: none;
+    position: absolute;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.drop-content-pages .pages {
+    color: black;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:rgb(227, 227, 255);;
+}
+
+.drop-content-pages .pages:hover {
+    background-color: rgb(236, 255, 255);
+}
+
+/*----------------------------------------------------------------*/
+.drop-about {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content-about {
+    display: none;
+    position: absolute;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+}
+
+.drop-content-about .about {
+    color: black;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:rgb(227, 227, 255);;
+}
+
+.drop-content-about :hover {
+    background-color: rgb(236, 255, 255);
+}
+
+/*----------------------------------------------------------*/
+
+.drop-shop {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content-shop {
+    display: none;
+    position: absolute;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+}
+
+.drop-content-shop .shop {
+    color: black;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:rgb(227, 227, 255);;
+}
+
+.drop-content-shop :hover {
+    background-color: rgb(236, 255, 255);
+}
+
+/*---------------------------------------------------------------*/
+.img-container-1{
+    position: relative;
+}
+.img-container-1 h1{
+  position: absolute;
+  padding-top: 100px;  
+  padding-left: 70px;
+  font-size: 50px;
+  color: white;
+  animation:upsidedown 1.5s ease-out forwards;
+}
+.img-container-1 a{
+    position: absolute;
+    right: 70px;
+    bottom: 140px;
+    font-size: 40px;
+    color: white;
+    animation:leftsideright 1.5s ease-out forwards;
+}
+.img-container-1 a:hover{
+    color: black;
+    text-shadow: 
+    0px 0px 2px rgb(255, 255, 255),
+    0px 0px 2px rgb(255, 255, 255),
+    0px 0px 2px rgb(255, 255, 255),
+    0px 0px 2px rgb(255, 255, 255);
+}
+.img-container-1 a span{
+    color:rgb(0, 0, 0);
+    margin-right: 10px;
+    cursor: default;
+    text-shadow: 
+    0px 0px 2px rgb(255, 255, 255),
+    0px 0px 2px rgb(255, 255, 255),
+    0px 0px 2px rgb(255, 255, 255),
+    0px 0px 2px rgb(255, 255, 255);
+}
+.img-container-1  .img-1{
+    height: 500px;
+    width: 100%;
+}
+@keyframes upsidedown{
+    from{
+        transform: translateY(0%);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(100%);
+        opacity: 1;
+    }
+}
+
+@keyframes leftsideright{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+/*---------------------------------------------------------------*/
+.contact-container{
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    animation:rightside 1.5s ease-in-out forwards;
+}
+@keyframes rightside{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.contact-container .inputs-box{
+    margin: 50px 40px 50px;
+    height: 900px;
+    width: 75%;
+    background-color: white;
+    box-shadow: 1px 5px 8px 1px rgb(29, 29, 29);
+    border-radius: 20px;
+}
+.contact-container .inputs-box .text{
+    margin: 70px 60px;
+    font-size: 25px;
+}
+.contact-container .inputs-box .name-email{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+}
+.contact-container .inputs-box .name-email input{
+    color: red;
+    height: 50px;
+    padding-left: 10px;
+    font-size:18px;
+    font-weight: 500;
+    width: 400px;
+    border: 1px solid rgb(235, 235, 235);
+    
+}
+.contact-container .inputs-box .name-email input::placeholder{
+    font-size: 15px;
+    color:rgb(114, 114, 114);
+}
+.contact-container .inputs-box .sub{
+    color: red;
+    display: block;
+    padding-left: 10px;
+    font-size:18px;
+    font-weight: 500;
+    margin-top: 30px;
+    height: 50px;
+    width: 820px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.contact-container .inputs-box .sub::placeholder{
+    font-size: 15px;
+    color:rgb(114, 114, 114);
+}
+.contact-container .inputs-box .msg{
+    color: red;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size:18px;
+    font-weight: 500;
+    height: 250px;
+    width: 820px;
+    border: 1px solid rgb(235, 235, 235);
+}
+.contact-container .inputs-box .msg::placeholder{
+    font-size: 20px;
+    color:rgb(114, 114, 114);
+    font-weight: 1;
+}
+
+.contact-container .inputs-box input:hover{
+    border: 1px solid red;
+    background-color: wheat;
+}
+.contact-container .inputs-box textarea:hover{
+    border: 1px solid red;
+    background-color: wheat;
+}
+.contact-container .inputs-box a button{
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.contact-container .inputs-box a button:hover{
+    background-color: wheat;
+    color: red;
+    border: 1px solid red;
+}
+/* -------------------------------------------------------------------- */
+.contact-container .contact-icon{
+    margin-top: 50px;
+    margin-right: 40px;
+}
+.contact-container .contact-icon .icons{
+    box-shadow: 1px 5px 8px 1px rgb(29, 29, 29);
+    border-radius: 20px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-bottom:75px ;
+}
+.contact-container .contact-icon i{
+    color: red;
+    font-size: 70px;
+    padding-top: 30px;
+}
+.contact-container .contact-icon .icons h4{
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    padding-top: 15px;
+}
+.contact-container .contact-icon .icons h5{
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 1;
+}
+/* -------------------------------------------------------------------- */
+.footer{
+    background-color: rgb(27, 35, 37);
+    margin-top: 50px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.footer .footer-content{
+    margin-top:60px;
+    width: 300px;
+}
+.footer .footer-content h1{
+    font-size: 55px;
+    color: white;
+}
+.footer .footer-content p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .foot-icon{
+    margin-top: 60px;
+}
+.footer .footer-content .foot-icon a{
+    color: white;
+    background-color: gray;
+    padding: 15px 16px 15px 16px;
+    border-radius: 15px;
+}
+.footer .footer-content .foot-icon :hover{
+    background-color: red;
+    border-radius: 15px;
+}
+/* ------------------------------------------ */
+.footer .footer-content h3{
+    margin-top:30px;
+    margin-left:10px ;
+    color: white;
+    font-size: 22px;
+}
+.footer .footer-content .footer-sub h5{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 1;
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .footer-sub a :hover{
+    color: red;
+}
+/* ------------------------------------------------- */
+.footer .footer-content .footer-sub-link h4{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 1;
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .footer-sub-link h4 a{
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .footer-sub-link h4 a :hover{
+    color: red;
+    text-shadow: 
+    0px 0px 2px red,
+    0px 0px 2px red,
+    0px 0px 2px red,
+    0px 0px 2px red;
+}
+
+.footer-2{
+    position: relative;
+    height: 90px;
+    background-color: rgb(15, 19, 20);
+    justify-content: center;
+    align-items: center;
+}
+.footer-2 .foot-2-content{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+}
+.footer-2 .foot-2-content h1{
+    font-size: 25px;
+    font-weight: 1;
+}
+/* Media Query for devices with a max (mobile devices) */
+@media (min-width:200px) and (max-width:600px) {
+    .first-nav h1 {
+        font-size: 18px;
+        left: 5px;
+    }
+
+    .first-nav a button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+/* Start */
+    .nav-2{
+        height: 30px;
+        width: 100%;
+    }
+    .nav-2 h6{
+       display: none;
+    }
+    .nav-2 .cont-1 .paragraph{
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 130px;
+    }
+    .nav-2 .cont-1 .paragraph p{
+        font-size: 12px;
+    }
+    .nav-2 .cont-1 .paragraph p a i span{
+        margin-left: 5px;
+    }
+    /*--------------------------------------------------*/
+    .nav-2 .cont-1 .account-drop{
+        position: absolute;
+        right: 35px;
+        top: 8px;
+        font-size: 15px;
+    }
+    /* End*/
+   /* start */
+   .search-box{
+    height: 60px;
+    margin-top: 10px;
+    }
+    .search-box a h1{
+        top: 0px;
+        left: 10px;
+        font-size: 35px;
+    }
+    .search-box input {
+        width: 200px;
+        left: 40px;
+        height: 32px;
+        top: 60px;
+    }
+    .search-box a .lence {
+        font-size: 20px;
+        left: 180px;
+        padding: 6px 20px 6px 20px;
+        margin-top: 30px;
+    }
+
+    .search-box a .heart{
+        right: 100px;
+        top: 60px;
+        font-size: 30px ;
+    }
+    .search-box a .bag{
+        right: 40px;
+        top: 60px;
+        font-size: 30px ;
+    }
+    /* end */
+
+    /* start */
+    .add-cart {
+        width:100%;
+        padding-bottom: 30px;
+        height: fit-content;
+        right: 0px;
+    }
+    /* end */
+
+    /* start */
+    .nav-3 .nav-content{
+        height: 50px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .nav-3 .nav-name{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .nav-3 .nav-name i{
+       margin-left: 8px;
+    }
+    /*----------------------------------------------------*/    
+    .drop-content-pages {
+        width: 150px;
+    }
+    /*----------------------------------------------------------------*/
+    .drop-content-about {
+        width: 150px;
+    }
+
+    /*----------------------------------------------------------*/
+    .drop-content-shop {
+        width: 150px;
+    }
+    /* end */
+   
+    /* start */
+    .img-container-1 h1{
+      padding-top: 20px;  
+      padding-left: 10px;
+      font-size: 22px;
+    }
+    .img-container-1 a{
+        right: 5px;
+        bottom: 100px;
+        font-size: 20px;
+    }
+    .img-container-1  .img-1{
+        height: 250px;
+    }
+    /* end */
+    /* start */
+    .contact-container{
+        height: auto;
+        margin-top: 50px;
+        display: block;
+    }
+    .contact-container .inputs-box{
+        margin: 20px 25px 20px;
+        height: 600px;
+        width: 90%;
+    }
+    .contact-container .inputs-box .text{
+        text-align: center;
+        font-size: 15px;
+        left: 5px;
+        margin-top: 15px ;
+        position:absolute;
+    }
+    .contact-container .inputs-box .name-email{
+        display: flex;
+        margin-top: 30px;
+        gap: 10px;
+    
+    }
+    .contact-container .inputs-box .name-email input{
+        height: 40px;
+        font-size:18px;
+        width: 150px;
+    }
+    .contact-container .inputs-box .name-email input::placeholder{
+        font-size: 15px;
+    }
+    .contact-container .inputs-box .sub{
+        font-size:15px;
+        height: 40px;
+        width: 310px;
+        right: 20px;
+    }
+    .contact-container .inputs-box .sub::placeholder{
+        font-size: 15px;
+    }
+    .contact-container .inputs-box .msg{
+        padding-top: 10px;
+        font-size:18px;
+        height: 200px;
+        width: 310px;
+    }
+    .contact-container .inputs-box .msg::placeholder{
+        font-size: 16px;
+    }
+    .contact-container .inputs-box a button{
+        margin-top: 30px;
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+    /* -------------------------------------------------------------------- */
+    .contact-container .contact-icon{
+        margin-top: 40px;
+        padding-left:125px;
+    }
+    .contact-container .contact-icon .icons{
+        box-shadow: 1px 5px 8px 1px rgb(29, 29, 29);
+        border-radius: 20px;
+        text-align: center;
+        height: 250px;
+        width: 250px;
+        display: block;
+        margin-bottom:75px ;
+    }
+    .contact-container .contact-icon i{
+        color: red;
+        font-size: 70px;
+        padding-top: 30px;
+    }
+    .contact-container .contact-icon .icons h4{
+        font-size: 30px;
+        color: rgb(85, 85, 85);
+        padding-top: 15px;
+    }
+    .contact-container .contact-icon .icons h5{
+        padding-top: 15px;
+        font-size: 18px;
+        font-weight: 1;
+    }
+    /* end */
+    /* start */
+    .footer{
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: fit-content;
+        display: block;
+        padding-left: 100px;
+        text-align: center;
+    }
+    .footer .footer-content{
+        margin-top:5px;
+        margin-left: 45px;
+        width: 200px;
+    }
+    .footer .footer-content h1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .footer .footer-content p{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .footer .footer-content .foot-icon{
+        margin-top: 10px;
+        font-size: 15px;
+        display:grid;
+        gap: 10px;
+        margin-right: 0px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .footer .footer-content .foot-icon a{
+        padding:10px;
+        border-radius: 15px;
+    }
+    /* ------------------------------------------ */
+    .footer .footer-content h3{
+        margin-top:10px;
+        margin-left:5px ;
+        font-size: 25px;
+    }
+    .footer .footer-content .footer-sub h5{
+        font-size:15px;
+        margin-top: 10px;
+        margin-left: 8px;
+        font-weight: 1;
+    }
+    
+    /* ------------------------------------------------- */
+    .footer .footer-content .footer-sub-link h4{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .footer-2{
+        height: 45px;
+    }
+    .footer-2 .foot-2-content{
+        margin-top: 15px;
+    }
+    .footer-2 .foot-2-content h1{
+        font-size: 15px;
+    }
+    
+    /* end */
+}
+
+
+
+

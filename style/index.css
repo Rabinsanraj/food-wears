@@ -1,0 +1,1289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.first-nav{
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.first-nav h1{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    align-items: center;
+    color: white;
+}
+.first-nav h1 span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.first-nav a h1:hover{
+    color: rgb(0, 0, 0);
+    text-shadow:
+    0px 0px 3px white,
+    0px 0px 3px white,
+    0px 0px 3px white,
+    0px 0px 3px white;
+}
+.first-nav a button{
+   position: absolute;
+   right:10px;
+   top: 10px;
+   font-size: 16px;
+   padding: 8px 20px 8px 20px;
+   background-color: rgb(119, 189, 39);
+   border: none;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.first-nav a button:hover{
+    background-color: rgb(62, 116, 2);
+    text-shadow:
+    0px 0px 1px white,
+    0px 0px 1px white,
+    0px 0px 1px white,
+    0px 0px 1px white;
+} 
+
+/*------------------------------------------------------------*/
+.nav-2{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+}
+.nav-2 h6{
+    position: absolute;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(73, 73, 73);
+    top: 15px;
+}
+.nav-2 .cont-1 .paragraph{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 200px; 
+}
+.nav-2 .cont-1 .paragraph p{
+    gap: 30px;
+    color: rgb(0, 0, 0);  
+}
+.nav-2 .cont-1 .paragraph p a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav-2 .cont-1 .paragraph p a i {
+    color: red;
+    margin-right: 15px;   
+}
+.nav-2 .cont-1 .paragraph p a i span{
+    color: black;
+    margin-left: 10px;
+}
+
+.nav-2 .cont-1 .paragraph p :hover{
+    color: rgb(255, 2, 2);
+}
+/*--------------------------------------------------*/
+.nav-2 .cont-1 .account-drop{
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+.nav-2 .cont-1 .account-drop a{
+    text-decoration: none;
+    color: black;
+}
+.nav-2 .cont-1 .account-drop a:hover{
+    color: red;
+}
+.nav-2 .cont-1 .account-drop a i{
+   margin-right: 10px;
+   color: red;
+}
+
+.account-drop{
+    position: relative;
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+    font-size: 18px;
+    background-color:rgb(227, 227, 255);;
+}
+.dropdown-content a{
+    padding: 10px;
+}
+.account-drop a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown-content a:hover {
+    background-color:rgb(220, 220, 255);;
+}
+/*------------------------------------------------------*/
+
+.search-box{
+    display: block;
+    position: relative;
+    height: 100px;
+    margin-top: 40px;
+}
+.search-box a h1{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 90px;
+    font-size: 50px;
+    color: black;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-box input{
+    position: absolute;
+    justify-content: center;
+    font-size: 15px;
+    top: 30px;
+    left: 450px;
+    height: 45px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    border: 2px solid rgb(170, 170, 170);
+    padding-left: 30px;
+}
+
+.search-box a .lence{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    top: 30px;
+    left: 820px;
+    background-color: red;
+    padding: 10px 25px 10px 25px;
+    border-radius: 0px 10px 10px 0px;
+    color: rgb(255, 255, 255);
+}
+.search-box a .heart{
+    position: absolute;
+    cursor: pointer;
+    right: 130px;
+    top: 35px;
+    font-size: 30px ;
+}
+.search-box a .bag{
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    font-size: 30px ;
+}
+.search-box a .heart:hover,
+.search-box a .bag:hover{
+    color: red;
+}
+.search-box a i {
+    color:black;
+    font-size: 30px;
+}
+.search-box a i:hover{
+color: rgb(0, 0, 0);
+}
+/*-------------------------------------------------------------*/
+.add-cart{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    border:1px solid white ;
+    background-color: rgba(252, 245, 232, 0.918);
+    z-index: 10;
+    right: 5px;
+    top: 80px;
+    display: none;
+}
+.add-cart .shop-button{
+    display: flex;
+    gap: 40px;
+    background-color:rgb(184, 182, 182);
+    border: none;
+    font-size:25px ;
+    padding-top: 15px;
+    padding-left: 60px;
+    height: 60px;
+    width: 100%;
+    transition: 0.10s ease-in-out;
+}
+.add-cart .shop-button i{
+    position: absolute;
+    color:red;
+    font-size:25px ;
+    padding-top: 5px;
+    right: 30px;
+}
+.add-cart .shop-button:hover{
+    background-color: black;
+    color: red;
+}
+
+.add-cart .imgs-box{
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.add-cart .imgs-box .imgs{
+    padding-bottom: 30px;
+    display: flex;
+}
+.add-cart .imgs-box .imgs .text h2{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    color: rgb(46, 46, 46);
+    font-weight: 1;
+}
+.add-cart .imgs-box .imgs .text h2 span{
+    position: absolute;
+    right: 20px;
+    padding-top: 10px;
+    font-size: 15px; 
+    cursor: pointer;
+    color: red;
+}
+.add-cart .imgs-box .imgs .text h4{
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 15px;
+    color: rgb(71, 71, 71);
+    font-weight: 1;
+}
+
+.add-cart .imgs-box .imgs img{
+    height: 100px;
+    width: 80px;
+}
+.add-cart .sub-tot{
+    display: flex;
+    gap: 230px;
+padding-left: 30px;
+    color: rgb(59, 1, 1);
+}
+.add-cart .check-button a button{
+    display:block;
+    margin-top: 20px;
+    border: none;
+    position: relative;
+    left: 20px;
+}
+.add-cart .check-button a .view{
+    padding: 20px 130px 20px 130px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+.add-cart .check-button a .check{
+    padding: 20px 130px 20px 130px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: yellow;
+}
+/* ------------------- */
+.add-cart .imgs-box .imgs:hover .text h2{
+    color: red;
+}
+.add-cart .imgs-box .imgs:hover .text h2 span{
+    text-shadow: 0px 0px 10px rgb(255, 0, 0),
+    0px 0px 10px rgb(59, 53, 53),
+    0px 0px 10px rgb(129, 84, 84),
+    0px 0px 10px rgb(228, 17, 17);
+}
+
+/*-------------------------------------------------------------*/
+
+.nav-3{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.nav-3 .nav-content{
+    background-color: red;
+    height: 50px;
+    width: 95%;
+    padding-top: 15px;
+    background-color: red;
+    text-decoration: none;
+    border-radius:10px 10px 0px 0px;
+}
+.nav-3 .nav-name{
+    margin-left: 60px;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-3 .nav-name i{
+   margin-left: 8px;
+   cursor: pointer;
+}
+/*----------------------------------------------------*/
+.drop-pages {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content-pages {
+    display: none;
+    position: absolute;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+}
+
+.drop-content-pages .pages {
+    color: black;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:rgb(227, 227, 255);;
+}
+
+.drop-content-pages .pages:hover {
+    background-color: rgb(236, 255, 255);
+}
+/*----------------------------------------------------------------*/
+.drop-about {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content-about {
+    display: none;
+    position: absolute;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+}
+
+.drop-content-about .about {
+    color: black;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:rgb(227, 227, 255);;
+}
+
+.drop-content-about :hover {
+    background-color: rgb(236, 255, 255);
+}
+/*----------------------------------------------------------*/
+
+.drop-shop {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content-shop {
+    display: none;
+    position: absolute;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+}
+
+.drop-content-shop .shop {
+    color: black;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color:rgb(227, 227, 255);;
+}
+
+.drop-content-shop :hover {
+    background-color: rgb(236, 255, 255);
+}
+/*---------------------------------------------------------------*/
+
+.img-container-1{
+    background-color: rgb(0, 118, 187);
+    height: 800px;
+    width: 100%;
+    position: relative;
+  
+}
+.img-container-1 .img-box{
+    background-color: white;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    position: absolute;
+    right: 70px;
+    top: 70px;
+}
+.img-container-1 .img-1{
+    position: absolute;
+    background-image:url(slider-01.webp) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 500px;
+   top: 80px;
+   right: 75px;
+   animation:leftside 1s ease-out forwards;
+}
+
+.img-container-1 .img-box-text{
+    position:absolute;
+    top:200px ;
+    font-size: 45px;
+    font-weight: bolder;
+    left: 50px;
+    color: white;
+    align-items: flex-start;
+    text-align: left;
+    animation:upside 1.5s ease-out forwards;
+}
+.img-container-1 .img-box-text h3{
+    font-size: 24px;
+    padding-top: 30px;
+    font-weight: 1;
+    font-family:'Courier New', Courier, monospace ; 
+    animation:upside 1.5s ease-out forwards;
+}
+.img-container-1 .shop-button{
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+.img-container-1 .shop-button .sp-bt{
+    padding:15px 60px 15px 60px;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    border:1px solid white ;
+    text-align: left;
+}
+.img-container-1 .shop-button .sp-bt:hover{
+    background-color: red;
+    border:1px solid red ;
+}
+.img-container-1 .transparent-text{
+    position: absolute;
+    bottom: 0px;
+    color: rgb(0, 118, 187);
+    font-size: 60px;
+    text-shadow:
+    0px 0px 2px white,
+    0px 0px 2px white,
+    0px 0px 2px white,
+    0px 0px 2px white;
+}
+@keyframes upside{
+    from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes leftside{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+/*---------------------------------------------------------------*/
+.offers{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.offers .off-1{
+    height: 430px;
+    width: 380px;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    background-color: rgb(46, 24, 24);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition:all 0.5s ease ;
+}
+.offers .off-1 h1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+.offers .off-1 h2{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 3;
+    font-family:'Courier New', Courier, monospace ; 
+}
+
+.offers .off-1:hover{
+    transition:all 0.5s ease ;
+    top: 20px;
+    left: 20px;
+    height: 440px;
+    width: 330px;
+}
+.offers img{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    height: 300px;
+    width: 280px;
+}
+/* -------------------------------------------- */
+.featured-item-head{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.featured-item-head  h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.featured-item-head  h2{
+    color: rgb(85, 85, 85);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+}
+/* ------------------------------------------- */
+
+.six-block-1{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 90px;
+}
+.six-block-1 .six-1 .six{
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 300px;
+} 
+.six-block-1 .six-1 .six{
+    position: relative;
+    cursor: pointer;
+} 
+.six-block-1 .six-1 .six h1{
+    position: absolute;
+    background-color: red;
+    border-radius:10px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.six-block-1 .six-1 .six-text h3{
+    margin-top: 10px ;
+    margin-left: 10px;
+    color: gray;
+}
+.six-block-1 .six-1  .six-text h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.six-block-1 .six-1  .six-text p {
+    margin-left:10px;
+    margin-top: 10px;
+}
+.six-block-1 .six-1  .six-text p .oldprice{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    text-decoration: line-through;
+  
+}
+.six-block-1 .six .six-text p .newprice{
+    color: gray;
+}
+/* ------------------------------------------------------- */
+
+.six-block-1 .six-1 .six .six-icon{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    writing-mode: vertical-rl; 
+}
+.six-block-1 .six-1 .six .six-icon a i{
+    margin-bottom: 8px;
+    border-radius: 5px;
+    transition: all 0.30s ease;
+    opacity: 0%;
+}
+.six-block-1 .six-1 .six .six-icon a i{
+    color: gray;
+    border: 2px solid  rgb(240, 240, 240);
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.six-block-1 .six-1 :hover  .six-icon a i{
+    transition: all 0.30s ease;
+    opacity: 100%;
+}
+.six-block-1 .six-1 .six .six-icon a :hover {
+    transition: all 0.30s ease;
+    color:white;
+    background-color: rgb(231, 51, 51);
+    border: none;
+}
+
+/* --------------------------------------------------- */
+
+.saving-box{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    margin-top: 50px;
+}
+.saving-box h3{
+    color: rgb(255, 46, 46);
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 44px;
+    font-family: Arial;
+    font-weight: 2;
+}
+.saving-box h1{
+    color: rgb(15, 15, 15);
+    font-size: 50px;
+    margin-left: 100px;
+}
+.saving-box h4{
+    color: gray;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 100px;
+}
+.saving-box .saving-shop-button .saving-shop-butt{
+    padding:15px 60px 15px 60px;
+    background-color: red;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: bolder;
+    border:1px solid white ;
+    text-align: left;
+}
+.saving-box .saving-shop-button .saving-shop-butt:hover{
+    background-color: rgb(255, 255, 255);
+    border:1px solid red ;
+    color: red;
+}
+.saving-box .shop-new{
+ display: flex;
+}
+.saving-box-img img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height:500px;
+    width: 50%;
+}
+.best-selling{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.best-selling h1{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.best-selling h3{
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(77, 77, 77);
+}
+/* ------------------------------------------------------------------ */
+.sports-shoe{
+    position: relative;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.sports-shoe .images{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 25px;
+    cursor: pointer;
+}
+.sports-shoe .images .img-2 h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.sports-shoe .images .img-2 h2{
+    color: rgb(77, 77, 77);
+    margin-top: 20px;
+}
+.sports-shoe .saving-shop-button .saving-shop-butt{
+    padding:15px 60px 15px 60px;
+    background-color: red;
+    color: white;
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: bolder;
+    border:1px solid white ;
+    text-align: left;
+}
+.sports-shoe .saving-shop-button .saving-shop-butt:hover{
+    background-color: rgb(255, 255, 255);
+    border:1px solid red ;
+    color: red;
+}
+/* -------------------------------------------------------------------- */
+.latest-blog{
+    position: relative;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.latest-blog .late-head h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.latest-blog .late-head h2{
+    font-size: 18px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(77, 77, 77);
+}
+.images-blog{
+    position: relative;
+    margin-top: 30px;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+}
+.images-blog .img-1{
+    justify-content:center;
+    width: 375px;
+}
+.images-blog .img-1 img{
+    border-radius: 15px;
+}
+.images-blog .img-1 .content{
+    margin-top: 15px;
+}
+.images-blog .img-1 .content a{
+   display: inline-block;
+   margin-right:30px ;
+   font-size: 18px;
+}
+.images-blog .img-1 .content a i{
+    color: red;
+}
+.images-blog .img-1 .content a i span{
+    color: rgb(75, 75, 75);
+}
+.images-blog .img-1 .content h2{
+    margin-top: 15px;
+    color: rgb(17, 17, 17);
+}
+.images-blog .img-1 .content button{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 13px 30px 13px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* ---------------------------------------------------------- */
+.footer{
+    background-color: rgb(27, 35, 37);
+    margin-top: 50px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.footer .footer-content{
+    margin-top:60px;
+    width: 300px;
+}
+.footer .footer-content h1{
+    font-size: 55px;
+    color: white;
+}
+.footer .footer-content p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .foot-icon{
+    margin-top: 60px;
+}
+.footer .footer-content .foot-icon a{
+    color: white;
+    background-color: gray;
+    padding: 15px 16px 15px 16px;
+    border-radius: 15px;
+}
+.footer .footer-content .foot-icon a:hover{
+    background-color: red;
+    border-radius: 15px;
+}
+/* ------------------------------------------ */
+.footer .footer-content h3{
+    margin-top:30px;
+    margin-left:10px ;
+    color: white;
+    font-size: 22px;
+}
+.footer .footer-content .footer-sub h5{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 1;
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .footer-sub a h5:hover{
+    color: red;
+}
+/* ------------------------------------------------- */
+.footer .footer-content .footer-sub-link h4{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 1;
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .footer-sub-link h4 a{
+    color: rgb(196, 196, 196);
+}
+.footer .footer-content .footer-sub-link h4 a:hover{
+    color: red;
+    text-shadow: 
+    0px 0px 2px red,
+    0px 0px 2px red,
+    0px 0px 2px red,
+    0px 0px 2px red;
+}
+
+.footer-2{
+    position: relative;
+    height: 90px;
+    background-color: rgb(15, 19, 20);
+    justify-content: center;
+    align-items: center;
+}
+.footer-2 .foot-2-content{
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+}
+.footer-2 .foot-2-content h1{
+    font-size: 25px;
+    font-weight: 1;
+}
+
+/* media quire */ 
+/* Media Query for devices with a max width of 480px (mobile devices) */
+@media (min-width:200px) and (max-width:600px) {
+    .first-nav h1 {
+        font-size: 18px;
+        left: 5px;
+    }
+
+    .first-nav a button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+/* Start */
+    .nav-2{
+        height: 30px;
+        width: 100%;
+    }
+    .nav-2 h6{
+       display: none;
+    }
+    .nav-2 .cont-1 .paragraph{
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 130px;
+    }
+    .nav-2 .cont-1 .paragraph p{
+        font-size: 12px;
+    }
+    .nav-2 .cont-1 .paragraph p a i span{
+        margin-left: 5px;
+    }
+    /*--------------------------------------------------*/
+    .nav-2 .cont-1 .account-drop{
+        position: absolute;
+        right: 35px;
+        top: 8px;
+        font-size: 15px;
+    }
+    /* End*/
+   /* start */
+   .search-box{
+    height: 60px;
+    margin-top: 10px;
+    }
+    .search-box a h1{
+        top: 0px;
+        left: 10px;
+        font-size: 35px;
+    }
+    .search-box input {
+        width: 200px;
+        left: 40px;
+        height: 32px;
+        top: 60px;
+    }
+    .search-box a .lence {
+        font-size: 20px;
+        left: 180px;
+        padding: 6px 20px 6px 20px;
+        margin-top: 30px;
+    }
+
+    .search-box a .heart{
+        right: 100px;
+        top: 60px;
+        font-size: 30px ;
+    }
+    .search-box a .bag{
+        right: 40px;
+        top: 60px;
+        font-size: 30px ;
+    }
+    /* end */
+
+    /* start */
+    .add-cart {
+        width:100%;
+        padding-bottom: 30px;
+        height: fit-content;
+        right: 0px;
+    }
+    /* end */
+
+    /* start */
+    .nav-3 .nav-content{
+        height: 50px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .nav-3 .nav-name{
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .nav-3 .nav-name i{
+       margin-left: 8px;
+    }
+    /*----------------------------------------------------*/    
+    .drop-content-pages {
+        width: 150px;
+    }
+    /*----------------------------------------------------------------*/
+    .drop-content-about {
+        width: 150px;
+    }
+
+    /*----------------------------------------------------------*/
+    .drop-content-shop {
+        width: 150px;
+    }
+    /* end */
+   
+    /* start */
+    .img-container-1{
+        height: 300px;
+    }
+    .img-container-1 .img-box{
+        width: 150px;
+        height: 150px;
+        right: 50px;
+        top: 30px;
+    }
+    .img-container-1 .img-1{
+        height: 130px;
+        width: 130px;
+       top: 13px;
+       right: 10px;
+      
+    }
+    
+    .img-container-1 .img-box-text{
+        top:90px ;
+        font-size: 15px;
+        left: 30px;
+    }
+    .img-container-1 .img-box-text h3{
+        font-size: 15px;
+        padding-top: 25px;
+        font-weight: 1;
+        font-family:'Courier New', Courier, monospace ; 
+    }
+    .img-container-1 .shop-button{
+        top: 220px;
+        left: 20px;
+    }
+    .img-container-1 .shop-button .sp-bt{
+        padding:5px 5px 5px 5px;
+        font-size: 15px;
+    }
+    .img-container-1 .shop-button .sp-bt:hover{
+        background-color: red;
+        border:1px solid red ;
+    }
+    .img-container-1 .transparent-text{
+        bottom: 20px;
+        font-size: 20px;
+        right: 20px;
+    }
+    /* end */
+
+    /* start */
+    .offers{
+        display: block;
+        margin-top: 50px;
+    }
+    .offers .off-1{
+        height: 400px;
+        width: 300px;
+       margin-left: 55px;
+    }
+
+    .offers .off-1:hover{
+        transition:all 0.5s ease ;
+        top: 20px;
+        left: 20px;
+        height: 400px;
+        width: 300px;
+    }
+    .offers img{
+        position: relative;
+        top: 40px;
+        left: 30px;
+        height: 250px;
+        width: 250px;
+    }
+    /* -------------------------------------------- */
+    .featured-item-head{
+        margin-top: 30px;
+       
+    }
+    .featured-item-head  h1{
+        font-size: 30px;    
+        margin-bottom: 10px;
+    }
+    .featured-item-head  h2{
+        font-size: 15px;
+    }
+    /* end */
+    .six-block-1 {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    /* start */
+    
+    .saving-box{
+        height: 220px;
+        margin-top: 30px;
+    }
+    .saving-box h3{
+        padding-top: 20px;
+        margin-left: 20px;
+        font-size: 26px;
+        font-weight: 2;
+    }
+    .saving-box h1{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .saving-box h4{
+        font-size: 13px;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: rgb(78, 78, 78);
+        font-family: none;
+    }
+    .saving-box .saving-shop-button .saving-shop-butt{
+        padding:5px 6px 5px 6px;
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .saving-box-img img{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height:220px;
+        width: 50%;
+    }
+    .best-selling{
+        margin-top: 30px;
+    }
+    .best-selling h1{
+        font-size: 40px;
+    }
+    .best-selling h3{
+        font-size: 15px;
+    }
+    /* ------------------------------------------------------------------ */
+    /* start */
+    .sports-shoe{
+        position: relative;
+        margin-top: 30px;
+        display: none;
+    }
+    /* end */
+    /* start */
+    .latest-blog{
+        position: relative;
+        margin-top: 50px;       
+    }
+    .latest-blog .late-head h1{
+        font-size: 50px;
+    }
+    .latest-blog .late-head h2{
+        font-size: 18px;
+        text-align: center;
+        font-family:none;
+    }
+    .images-blog{
+        position: relative;
+        margin-top: 30px;
+        margin-left: 55px;
+        display: block;
+    }
+    .images-blog .img-1 .content button{
+        margin-bottom: 30px;
+    }
+    /* end */
+    /* start */
+    .footer{
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: fit-content;
+        display: block;
+        padding-left: 120px;
+        text-align: center;
+    }
+    .footer .footer-content{
+        margin-top:5px;
+        width: 200px;
+    }
+    .footer .footer-content h1{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .footer .footer-content p{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .footer .footer-content .foot-icon{
+        margin-top: 10px;
+        font-size: 15px;
+        display:grid;
+        gap: 10px;
+        margin-right: 0px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .footer .footer-content .foot-icon a{
+        padding:10px;
+        border-radius: 15px;
+    }
+    /* ------------------------------------------ */
+    .footer .footer-content h3{
+        margin-top:10px;
+        margin-left:5px ;
+        font-size: 25px;
+    }
+    .footer .footer-content .footer-sub h5{
+        font-size:15px;
+        margin-top: 10px;
+        margin-left: 8px;
+        font-weight: 1;
+    }
+    /* ------------------------------------------------- */
+    .footer .footer-content .footer-sub-link h4{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .footer-2{
+        height: 45px;
+    }
+    .footer-2 .foot-2-content{
+        margin-top: 15px;
+    }
+    .footer-2 .foot-2-content h1{
+        font-size: 15px;
+    }
+    
+    /* end */
+}
